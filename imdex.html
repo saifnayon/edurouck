@@ -13,46 +13,57 @@
 
 <body>
 
-    <div class="bg-[#170f2f]">
-        <div class=" flex items-center w-[80%] m-auto justify-between mt-4 pt-4 pb-4">
+    <div class="bg-[#170f2f] ">
+        <div class=" flex items-center lg:w-[80%] m-auto justify-between mt-4 pt-4 pb-4">
 
-            <div><img src="logo_1.png" alt=""></div>
-            <div class="flex gap-2 text-white">
-                <p class="text-2xl font-normal">demos <i class="fa-solid fa-angle-down text-lg"></i> </p>
-                <p class="text-2xl font-normal">pages <i class="fa-solid fa-angle-down text-lg"></i> </p>
-                <p class="text-2xl font-normal">courses <i class="fa-solid fa-angle-down text-lg"></i> </p>
-                <p class="text-2xl font-normal">Dashbort <i class="fa-solid fa-angle-down text-lg"></i> </p>
-                <p class="text-2xl font-normal">E-commarce <i class="fa-solid fa-angle-down text-lg"></i> </p>
+            <div class="pl-2"><img src="logo_1.png" alt=""></div>
+            <div class="hidden lg:block">
+                <div class="flex gap-2 text-white">
+                    <p class=" lg:text-2xl font-normal">demos <i class="fa-solid fa-angle-down text-lg"></i> </p>
+                    <p class=" lg:text-2xl font-normal">pages <i class="fa-solid fa-angle-down text-lg"></i> </p>
+                    <p class="lg:text-2xl font-normal">courses <i class="fa-solid fa-angle-down text-lg"></i> </p>
+                    <p class=" lg:text-2xl font-normal">Dashbort <i class="fa-solid fa-angle-down text-lg"></i> </p>
+                    <p class=" lg:text-2xl font-normal">E-commarce <i class="fa-solid fa-angle-down text-lg"></i> </p>
+                </div>
             </div>
 
-            <div class="flex items-center gap-8 justify-between text-white">
-                <i class="fa-solid fa-cart-plus text-2xl"></i>
-                <i class="fa-solid fa-user text-2xl border-solid border-gray-300 border-2 pl-1 p-1"></i>
-                <p class="bg-[#5a2bdf] w-25 p-2 text-lg align-middle pl-2 rounded-md">get start</p>
+            <div>
+                <div class="flex  items-center gap-8 justify-between text-white">
+                    <div>
+                        <i class=" hidden lg:block fa-solid fa-cart-plus text-2xl"></i>
+                    </div>
+                    <i class="fa-solid fa-user text-2xl border-solid border-gray-300 border-2 pl-1 p-1"></i>
+                    <div>
+                        <p class="hidden lg:block bg-[#5a2bdf] w-25 p-2 text-lg align-middle pl-2 rounded-md">get start
+                        </p>
 
+                    </div>
+                </div>
             </div>
         </div>
 
 
-        <section class="w-[60%] m-auto mt-50 ">
-            <div class="  flex mt-20 ">
-                <div class="text-white w-2/1">
 
-                    <p class="text-2xl mb-6 text-red-600 ">Education Solution</p>
-                    <h2 class="text-6xl font-bold mb-8">Cloud-based LMS <br> Trusted by 1000+</h2>
+        <section class="  lg:w-[60%] lg:m-auto lg:mt-50 ">
+            <div class="  lg:flex lg:mt-20">
+                <div class="text-white lg:w-1/2 mb-5 flex flex-col items-center lg:items-start">
+
+                    <p class="lg:text-2xl mb-6 text-red-600 ">Education Solution</p>
+                    <h2 class="lg:text-6xl font-bold mb-8">Cloud-based LMS <br> Trusted by 100+</h2>
                     <p class="mb-6">Lorem Ipsum is simply dummy text of the printing typesetting <br>industry. Lorem
                         Ipsum has been</p>
                     <div>
-                        <button class="bg-white text-black text-lg font-bold mb-6 pt-4 pb-4 pr-6 pl-6 rounded-md ">View
+                        <button
+                            class="bg-white text-black  lg:text-lg font-bold lg:mb-6  lg:pt-4 lg:pb-4  lg:pr-6  lg:pl-6 rounded-md ">View
                             Courses</button>
-                        <button class=" text-lg font-sm ml-10 mb-50">Find out more <i
+                        <button class=" lg:text-lg font-sm ml-10 lg:mb-50">Find out more <i
                                 class="fa-solid fa-arrow-right text-lg  "></i></button>
 
                     </div>
 
                 </div>
-                <div class="w-1/2">
-                    <img class="w-500 " src="about_1.png" alt="">
+                <div class="lg:w-1/2 flex flex-col items-center lg:items-end">
+                    <img class=" w-[200px] lg:w-[400px]" src="about_1.png" alt="">
 
                 </div>F
 
@@ -61,11 +72,11 @@
     </div>
 
     <section>
-        <div class="flex justify-between p-8  w-[80%] m-auto bg-slate-300 -translate-y-10 rounde">
-            <img src="im/brand_1.png" alt="">
-            <img src="im/brand_2.png" alt="">
-            <img src="im/brand_3.png" alt="">
-            <img src="im/brand_4.png" alt="">
+        <div class="flex justify-between p-8  lg:w-[80%] lg:m-auto bg-slate-300 -translate-y-10 rounde">
+            <img class="w-[50px] lg:w-[100px]" src="im/brand_1.png" alt="">
+            <img class="w-[50px] lg:w-[100px]" src="im/brand_2.png" alt="">
+            <img class="w-[50px] lg:w-[100px]" src="im/brand_3.png" alt="">
+            <img class="w-[50px] lg:w-[100px]" src="im/brand_4.png" alt="">
 
             <img src="im/brand_6.png" alt="">
 
@@ -73,18 +84,22 @@
         </div>
     </section>
 
-    <section>
-        <div class="flex w-[60%] m-auto justify-between mt-30 items-center ">
-            <div class="w-1/2">
-                <img src="about_2.png" alt="">
+    <section class="container mx-auto ">
+        <div class="lg:flex lg:w-[60%] lg:m-auto lg:justify-between lg:mt-30 lg:items-center gap-x-2 lg:mb-20">
+            <div class="lg:w-1/2 flex justify-center">
+                <img class="w-[200px] lg:w-[500px]  " src="about_2.png" alt="">
+                <div class="flex flex-col justify-end -translate-x-15">
+                    <img class="" src="about_3.png" alt="">
+                </div>
             </div>
-            <div class="w-1/2">
+            <div class=" lg:w-1/2  flex justify-between flex-col items-center lg:items-start">
                 <p class="text-[#5a2bdf] ">About us </p>
                 <p class="text-5xl font-bold">Welcome to the Online <br> Learning Center</p>
-                <p class="mt-4">25+Contrary to popular belief, Lorem Ipsum is not simply random text roots in a piece of
+                <p class="lg:mt-4">25+Contrary to popular belief, Lorem Ipsum is not simply random text roots in a piece
+                    of
                     classical Latin literature from 45 BC</p>
                 <p class="mt-4 mb-2"><i class="fa-solid fa-check text-[#5a2bdf] bg-[#ac9ed1] p-1 "></i> Lorem Ipsum is
-                    simply dummy</p>
+                    F simply dummy</p>
                 <p class="mt-4 mb-2"><i class="fa-solid fa-check text-[#5a2bdf] bg-[#ac9ed1] p-1 "></i> Lorem Ipsum is
                     simply dummy</p>
                 <p class="mt-4 mb-2"><i class="fa-solid fa-check text-[#5a2bdf] bg-[#ac9ed1] p-1 "></i> Lorem Ipsum is
@@ -93,10 +108,83 @@
                     simply dummy</p>
             </div>
 
-            <div>
+        </div>
 
+        <div class="flex justify-between container  mx-auto lg:w-[80%] lg:m-aut">
+            <div class="flex items-center gap-2">
+                <img src="icon/counter__1.png" alt="">
+                <div>
+                    <p class="text-3xl font-bold ">
+                        21+
+                    </p>
+                    <p class="text-lg font-semibold ">
+                        Total Acheivment
+                    </p>
+                </div>
             </div>
+            <div class="flex items-center gap-2">
+                <img src="icon/counter__1.png" alt="">
+                <div>
+                    <p class="text-3xl font-bold ">
+                        21+
+                    </p>
+                    <p class="text-lg font-semibold ">
+                        Total Acheivment
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="icon/counter__1.png" alt="">
+                <div>
+                    <p class="text-3xl font-bold ">
+                        21+
+                    </p>
+                    <p class="text-lg font-semibold ">
+                        Total Acheivment
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="icon/counter__1.png" alt="">
+                <div>
+                    <p class="text-3xl font-bold ">
+                        21+
+                    </p>
+                    <p class="text-lg font-semibold ">
+                        Total Acheivment
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
     </section>
+
+
+    <section>
+        <div class="leading-[200]">
+            <p class="text-purple-700 bg-purple-200 px-4 py-1 w-36 rounded-full text-sm"> 
+                Populer Subject
+            </p>
+            <p class="text-6xl font-bold pb-10 ">Provide It & <br> TechnolSubject  For You</p>
+            <p class="text-2xl font-semibold p>
+                Construction is a general term meaning the art and science to form <br> systems organizations, and comes from Latin Construction is
+            </p>
+            <p class="leading-loose tex " > 
+                Construction is a general term meaning the art and science to form systems organizations, and comes from Latin Construction is a organizations, and comes from Latin construction and Old
+            </p>
+        </div>
+        <div>
+
+        </div>
+    </section>
+
+
+
+
+
 
 </body>
 
